@@ -1,5 +1,5 @@
-const host = "https://old.reddit.com"
-const regex = /^https?:\/\/(?:www.reddit.com|reddit.com)([\S\s]*)/
+const host = "https://old.lemmy.world"
+const regex = /^https?:\/\/(?:www.lemmy.world|lemmy.world)([\S\s]*)/
 
 chrome.webRequest.onBeforeRequest.addListener(
   function(details){
@@ -7,8 +7,8 @@ chrome.webRequest.onBeforeRequest.addListener(
   },
   {
     urls: [
-      "*://www.reddit.com/*",
-      "*://reddit.com/*"
+      "*://www.lemmy.world/*",
+      "*://lemmy.world/*"
     ]
   },
   ["blocking"]
