@@ -1,15 +1,20 @@
 {
-  "name": "Old Reddit Redirect",
+  "name": "Old lemmy Redirect",
   "version": "1.0.0",
-  "description": "Re-routes new reddit to the old reddit automatically",
+  "description": "Re-routes lemmy to the old lemmy automatically",
   "background": {
     "scripts": ["background.js"]
   },
+  "icons": {
+    "16": "media/icon16.png",
+    "48": "media/icon48.png",
+    "128": "media/icon128.png"
+    },
   "manifest_version": 2,
   "permissions": [
   "webRequest",
-  "*://www.reddit.com/*",
-  "*://reddit.com/*",
+  "*://www.lemmy.world/*",
+  "*://lemmy.world/*",
   "webRequestBlocking"
   ]
 }
