@@ -1,11 +1,5 @@
-# old-reddit-redirect
-Google Chrome extension for redirecting the new reddit UI to the old reddit UI
-
-### Motivation
-After Reddit updated their website to their new user interface, a lot of subreddits
-that had custom styling, or custom sidebars did not display correctly. This 
-extension simply reroutes Reddit queries to the old Reddit domain that preserves
-the old Reddit user interface.
+# old-lemmy-redirect
+Google Chrome extension for redirecting the Lemmy UI to the old Lemmy UI
 
 ### Running
 1. Clone this repo to your desired directory
